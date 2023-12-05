@@ -3,8 +3,7 @@ import { UserRoles } from '../app.component';
 
 @Component({
   selector: 'role-based-button',
-  templateUrl: './role-based-button.component.html',
-  styleUrls: ['./role-based-button.component.css']
+  templateUrl: './role-based-button.component.html'
 })
 export class RoleBasedButtonComponent implements OnInit {
   @Input() role: string = UserRoles.User;
